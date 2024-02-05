@@ -1,20 +1,15 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
 
 body {
-    background: none; /* Remove background color from the body */
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 .topbar {
     display: flex;
-    justify-content: space-around;
+    background-color: #333d53;
+    overflow: hidden;
     align-items: center;
-    height: 60px;
-    background: #272b32; /* Set background color for the topbar */
+    justify-content: space-around;
 }
 
 .topbar a {
@@ -23,14 +18,13 @@ body {
     font-weight: 500;
     color: #ffffff;
     text-decoration: none;
-    padding: 6px 20px;
+    padding: 16px 20px;
     transition: .5s;
 }
 
 .topbar a:hover {
     color: rgb(100, 135, 253);
 }
-
 .topbar a span {
     position: absolute;
     top: 0;
